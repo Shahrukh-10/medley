@@ -1,0 +1,45 @@
+.testimonial {
+  background: rgba(32, 32, 46, 1);
+}
+.feedback_review {
+  display: flex;
+  padding-top: 122px;
+  justify-content: space-evenly;
+}
+#inp {
+  height: 64px;
+  width: 400px;
+  border-radius: 100px;
+  background-color: rgba(41, 41, 69, 1);
+  border: none;
+  outline: none;
+  padding: 22px 0;
+  padding-left: 18px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.204545px;
+}
+::placeholder {
+  color: #ffffff;
+}
+.search {
+  position: relative;
+}
+.search img {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.company{
+    margin-bottom: 32px;
+    /* padding: 0; */
+}
+.company{
+  padding: 0 88px;
+}
+hr{
+    color: white;
+}

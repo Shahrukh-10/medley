@@ -1,0 +1,88 @@
+.header {
+  width: 100%;
+  background-image: url("../../assets/image.jpg");
+  min-height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 0;
+}
+.headerText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 264px;
+}
+.distributors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.distributors p {
+  font-family: "Gotham";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 0 8px;
+  color: white;
+}
+.distributors div {
+  background-color: white;
+  width: 40px;
+  height: 2px;
+}
+.connecting {
+  font-family: "Gotham";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: white;
+  padding-top: 24px;
+  text-align: center;
+}
+.memberButton {
+  padding-top: 40px;
+}
+.memberButton button {
+  width: 306px;
+  height: 56px;
+  background: linear-gradient(267.28deg, #7b61ff 24%, #aa82ff 73.95%);
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  font-family: "Gotham";
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+.scrollDown {
+  position: relative;
+  top: 155px;
+  color: white;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 120px;
+}
+.scrollDown span {
+  position: relative;
+  font-size: 2.1em;
+  top: 3.4px;
+  animation: moveUpDown 1.4s linear infinite;
+}
+@keyframes moveUpDown {
+  0% {
+    top: -3px;
+  }
+  50% {
+    top: 6px;
+  }
+  100% {
+    top: -3px;
+  }
+}

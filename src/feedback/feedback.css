@@ -1,0 +1,54 @@
+.feedback {
+  width: 499px;
+  position: relative;
+  height: 180px;
+  background-color: rgba(41, 41, 69, 1);
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  justify-content: start;
+  align-self: start;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 207px;
+}
+.reviewer {
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+}
+.reviews p {
+  width: 258px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.star {
+  padding-top: 28.37px;
+}
+.reviews {
+  padding-top: 8px;
+}
+.name {
+  padding-top: 16px;
+}
+.name p {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.post {
+  padding-top: 6px;
+  color: rgba(155, 165, 254, 1);
+}
+.post p {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}

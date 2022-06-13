@@ -1,0 +1,48 @@
+.distributor {
+  width: 667px;
+  height: 437px;
+  background-image: url("../assets/distributer.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+.allCover {
+  padding: 0 88px;
+  padding-top: 260px;
+  display: flex;
+  color: white;
+  font-family: "Gotham";
+}
+.allCover h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+.points {
+  display: flex;
+  padding-top: 32px;
+}
+#img {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+}
+.pointhead h3 {
+  padding-bottom: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+.pointhead p {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+}

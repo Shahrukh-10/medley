@@ -1,0 +1,71 @@
+.banner {
+  width: 298px;
+  position: relative;
+  height: 364px;
+  background: rgba(32, 32, 46, 1);
+  margin-bottom: 24px;
+}
+.bannerImage {
+  padding: 24px;
+}
+.controller {
+  position: absolute;
+  top: 123px;
+  left: 24px;
+}
+.supplier {
+  background-color: rgba(87, 87, 106, 1);
+  color: white;
+  width: 200px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 30px;
+}
+
+.supply {
+  display: flex;
+  margin-bottom: 24px;
+}
+.tilt {
+  width: 12px;
+  height: 34px;
+  transform: skew(20deg);
+  background-color: rgba(87, 87, 106, 1);
+  margin: 0 2px;
+}
+.tiltMain {
+  background: rgba(32, 32, 46, 1);
+  position: absolute;
+  width: 19px;
+  height: 34px;
+  transform: skewX(20deg);
+  left: 184px;
+}
+.lastTilt {
+  display: flex;
+  position: absolute;
+  left: 186px;
+}
+.bannerText {
+  color: white;
+  padding: 0 24px;
+}
+.bannerText p {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#one {
+  box-shadow: inset 0px 2px 0px #61ffda;
+}
+#two {
+  box-shadow: inset 0px 2px 0px #7b61ff;
+}
+#three {
+  box-shadow: inset 0px 2px 0px #ff626b;
+}

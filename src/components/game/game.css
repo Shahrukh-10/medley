@@ -1,0 +1,71 @@
+.game {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+}
+.desc {
+  height: 115.67px;
+  background: rgba(24, 25, 32, 0.1);
+  backdrop-filter: blur(32.2141px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 0 18.09px;
+  padding-top: 16px;
+}
+.descp {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 19px;
+  color: white;
+}
+.desch {
+  line-height: 19px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  font-size: 14px;
+}
+.rating {
+  display: flex;
+  padding-top: 23px;
+  justify-content: start;
+  align-items: center;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.4px;
+  line-height: 12px;
+  color: white;
+}
+.rating img {
+  padding-right: 6.67px;
+}
+.rate {
+  padding-right: 19.33px;
+}
+.orders {
+  padding-right: 31.87px;
+  text-align: left;
+  font-size: 9.4px;
+}
+.rating button {
+  width: 79.89px;
+  height: 26.89px;
+  padding: 6.44282px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  line-height: 14px;
+  color: white;
+  background: #f68e5f;
+  border-radius: 17px;
+}

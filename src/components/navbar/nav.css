@@ -1,0 +1,63 @@
+.navbar {
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 88px;
+  margin-right: 88px;
+  flex: 1;
+}
+.medley{
+  cursor: pointer;
+}
+
+.navlinks ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+ul li {
+  margin-right: 40px;
+  font-family: "Gotham";
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700px;
+}
+.searchBar{
+  position: relative;
+outline: none;
+border: none;
+}
+.searchImage{
+  position: absolute;
+  z-index: 2;
+ width: 28px;
+ height: 28px;
+ border-radius: 20px;
+ background: linear-gradient(267.28deg, #7B61FF 24%, #AA82FF 73.95%);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ left: 186px;
+ top: 4px;
+ cursor: pointer;
+}
+.searchBar img{
+  z-index: 2;
+  width: 17.14px;
+  height: 16.37px;
+}
+input.searchBar,
+textarea {
+  background-color: white;
+  border-radius: 34px;
+  width: 219px;
+  height: 36px;
+  z-index: 1;
+  padding-left: 16px;
+  font-family: "Gotham";
+  font-size: 14px;
+}

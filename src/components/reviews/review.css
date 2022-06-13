@@ -1,0 +1,40 @@
+.review {
+  padding-top: 197px;
+}
+.headcomp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.test {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.test div {
+  width: 40px;
+  height: 2px;
+  background-color: rgba(246, 142, 95, 1);
+}
+.test p {
+  color: rgba(246, 142, 95, 1);
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 0 8px;
+}
+.head {
+  padding-bottom: 24px;
+  max-width: 471px;
+}
+.head p {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: white;
+}
