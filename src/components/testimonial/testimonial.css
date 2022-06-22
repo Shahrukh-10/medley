@@ -3,8 +3,9 @@
 }
 .feedback_review {
   display: flex;
-  padding-top: 122px;
+  margin-top: 4rem;
   justify-content: space-evenly;
+  margin: 4rem 8rem;
 }
 #inp {
   height: 64px;
@@ -43,3 +44,30 @@
 hr{
     color: white;
 }
+
+@media screen and (max-width:1300px) {
+  .feedback_review {
+    flex-direction: column;
+    
+  }
+  
+}
+
+@media screen and (max-width:650px) {
+  .feedback_review {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem; 
+  }
+  .company {
+    display: none;
+  }
+  
+}
+
+/* @media screen and (max-width:500px) {
+ 
+  
+} */
+
+

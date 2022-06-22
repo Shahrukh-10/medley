@@ -4,8 +4,11 @@
   height: 364px;
   background: rgba(32, 32, 46, 1);
   margin-bottom: 24px;
+  margin-left:1rem ;
+  margin-right: 1rem;
+  margin-top: 1rem;
 }
-.bannerImage {
+.banerImage {
   padding: 24px;
 }
 .controller {
@@ -69,3 +72,49 @@
 #three {
   box-shadow: inset 0px 2px 0px #ff626b;
 }
+/* 
+ */
+
+
+ @media  screen and (max-width:320px) {
+
+  .banner{
+    width:100%;
+  }
+
+  .controller{
+    display: none;
+  }
+
+  .bannerImage{
+    width: 100%;
+  }
+
+  .supply{
+    width: 100%;
+  }
+
+  .supplier{
+    font-size: 12px;
+    width:90%
+  }
+  .supplier p{
+    margin-right: 1.1rem;
+  }
+
+  .tilt{
+    display: none;
+  }
+
+  .bannerText{
+    font-size: 12px;
+  }
+  
+  .lastTilt , .tiltMain{
+    display: none;
+  }
+}
+
+
+
+

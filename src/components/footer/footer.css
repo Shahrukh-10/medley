@@ -106,15 +106,56 @@
   display: flex;
   justify-content: center;
   background: rgba(32, 32, 46, 1);
-padding-top: 27.5px;
-padding-bottom: 24px;
-color: #777B9E;
+  padding-top: 27.5px;
+  padding-bottom: 24px;
+  color: #777b9e;
   align-items: center;
 }
 .copyright p {
-    font-family: 'Gotham';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 32px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .heading-footer h4 {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  .mid-head {
+    justify-content: space-between;
+  }
+
+  .last-head {
+    justify-content: flex-start;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .footer {
+   padding: 0 2rem;;
+  }
+
+  .mid-head {
+    padding-bottom: 2rem;
+  }
+
+  .footer-right{
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .mid-head p{
+    display: none;
+  }
 }

@@ -1,7 +1,7 @@
 .feedback {
-  width: 499px;
+  width:500px;
   position: relative;
-  height: 180px;
+  height: 200px;
   background-color: rgba(41, 41, 69, 1);
   display: flex;
   flex-direction: column;
@@ -10,7 +10,8 @@
   align-self: start;
   color: white;
   border-radius: 10px;
-  margin-bottom: 207px;
+  padding-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 .reviewer {
   position: absolute;
@@ -18,7 +19,7 @@
   bottom: -5px;
 }
 .reviews p {
-  width: 258px;
+  width: 100%;
   font-family: "Gotham";
   font-style: normal;
   font-weight: 400;
@@ -51,4 +52,47 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
+  
+}
+
+@media screen and (max-width:1300px) {
+  .feedback {
+    width:100%;
+  }
+  
+}
+
+
+@media screen and (max-width:830px) {
+  .reviewer img{
+    width:150px;
+  }
+
+  .reviews {
+    padding-top: 8px;
+    width:80%;
+  }
+ 
+}
+
+@media screen and (max-width:650px) {
+  .reviewer img{
+    width:180px;
+  }
+  .reviewer{
+    
+  }
+
+}
+
+@media screen and (max-width:650px) {
+  .reviewer img{
+   display: none;
+  }
+  .reviewer{
+    display:none;
+  }
+  .feedback{
+  margin-bottom: 2rem;
+  }
 }

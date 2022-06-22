@@ -5,7 +5,7 @@ import star from "../../assets/star.png";
 
 const Game = (props) => {
   return (
-    <div className="game">
+    <div className="game" id={props.id}>
       <img src={props.img} alt="cod" />
       <div className="desc">
         <h4 className="desch">{props.head}</h4>

@@ -16,12 +16,13 @@ import controller2 from '../../assets/controller2.png'
 const Brands = () => {
   return (
     <div className="brands">
-      <div className="company">
+      <div className="companyTag">
         <img src={steam} alt="steam" />
         <img src={microsoft} alt="microsoft" />
+        <img src={play} alt="play" />
         <img src={xbox} alt="xbox" />
         <img src={ps} alt="ps" />
-        <img src={play} alt="play" />
+        
       </div>
       <div className="do">
         <div></div>

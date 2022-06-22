@@ -1,13 +1,13 @@
 .navbar {
-  padding-top: 18px;
+  padding-top: 1rem;
   display: flex;
   justify-content: space-between;
-  margin-left: 88px;
-  margin-right: 88px;
-  flex: 1;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
-.medley{
+.medley {
   cursor: pointer;
+  max-width: 200px;
 }
 
 .navlinks ul {
@@ -25,34 +25,41 @@ ul li a {
   text-decoration: none;
   color: white;
   font-weight: 700px;
+  font-size: 1rem;
 }
-.searchBar{
+
+.searchBarDiv{
+  margin-right: 0;
+}
+.searchBar {
   position: relative;
-outline: none;
-border: none;
+  outline: none;
+  border: none;
 }
-.searchImage{
-  position: absolute;
+.searchImage {
   z-index: 2;
- width: 28px;
- height: 28px;
- border-radius: 20px;
- background: linear-gradient(267.28deg, #7B61FF 24%, #AA82FF 73.95%);
- display: flex;
- justify-content: center;
- align-items: center;
- left: 186px;
- top: 4px;
- cursor: pointer;
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border-radius: 20px;
+  background: linear-gradient(267.28deg, #7b61ff 24%, #aa82ff 73.95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 186px;
+  top: 4px;
+  cursor: pointer;
 }
-.searchBar img{
+.searchBar img {
   z-index: 2;
   width: 17.14px;
   height: 16.37px;
 }
 input.searchBar,
 textarea {
-  background-color: white;
+  color: beige;
+  background-color: transparent;
+  border: 1px solid white;
   border-radius: 34px;
   width: 219px;
   height: 36px;
@@ -60,4 +67,97 @@ textarea {
   padding-left: 16px;
   font-family: "Gotham";
   font-size: 14px;
+}
+
+.icon{
+  display: none;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+    margin: 0 3rem;
+    padding-top: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+    margin: 0 3rem;
+    padding-top: 1.5rem;
+  }
+
+  ul li {
+    margin-right: 1.5rem;
+    font-family: "Gotham";
+  }
+
+  ul li a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  
+
+  .navbar {
+    align-items: center;
+  }
+
+  ul li a{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+
+input.searchBar,
+textarea{
+  width: 120px;
+}
+
+.searchImage {
+  left: 85px;
+  top: 4px;
+}
+  
+}
+.navlinks{
+  position: relative;
+}
+.toggle{
+  visibility: hidden;
+  width: 4.5rem;
+  height: 6.5rem;
+  color: white;
+  list-style: none;padding-left: 0.3em;
+  padding-top: 0.3em;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  right: 0px;
+}
+.toggle li a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Gotham';
+  font-size: 0.7em;
+}
+@media  screen and (max-width:500px) {
+
+  .icon{
+    display: block;
+    margin-right: 0;
+  }
+
+  .searchBar{
+    display: none;
+  }
+  .navbar{
+    margin: 0 1.5rem;
+  }
+  .toggle{
+    visibility: visible;
+  }
 }

@@ -1,28 +1,36 @@
 .brands {
   background: #1c1c28;
-  padding-top: 32.02px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
 }
-.company {
+.companyTag {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 0 200px;
+  margin: 0 5rem;
   flex-wrap: wrap;
+  padding: 0;
 }
-.company img{
-  padding: 10px;
+.companyTag img {
+  max-width: 100px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  height: 30px;
+  margin-top: 2rem;
+}
+
+.companyTag img:last-child {
+  margin-right: 0;
 }
 .do {
   color: rgba(246, 142, 95, 1);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 186px;
-  padding-bottom: 24px;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
 }
 .do p {
   font-family: "Gotham";
@@ -41,6 +49,7 @@
 .meeting {
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 .meeting p {
   font-family: "Gotham";
@@ -55,9 +64,86 @@
 .banners {
   display: flex;
   justify-content: center;
-  padding: 80px 249px;
+  /* padding: 80px 249px; */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-  padding-bottom: 200px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .companyTag img {
+    max-width: 100px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+  }
+
+  .do{
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .companyTag {
+    margin: 0 2rem;
+  }
+
+  .companyTag img {
+    max-width: 90px;
+    margin-top: 2rem;
+  }
+
+  .do{
+    margin-top: 2rem;
+    
+  }
+  .do p{
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .meeting{
+    margin: 0 2rem;
+    margin-bottom: 2rem;
+  }
+  .meeting p{
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+
+  .companyTag {
+    margin: 0 1rem;
+    margin-top: 1.5rem;
+    padding: 0px;
+  }
+
+  .companyTag img {
+    max-width: 80px;
+    height: 20px;
+  }
+
+  .do{
+    margin-top: 3rem;
+  }
+
+  .meeting{
+    
+    margin-bottom: 1rem;
+  }
+}
+
+
+@media  screen and (max-width:320px) {
+
+  .banners{
+    width: 80%;
+   
+  }
+  
 }

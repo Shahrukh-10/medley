@@ -1,5 +1,5 @@
 .review {
-  padding-top: 197px;
+  margin-top: 5rem;
 }
 .headcomp {
   display: flex;
@@ -37,4 +37,18 @@
   line-height: 52px;
   text-align: center;
   color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .head p {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 0.5rem;
+  }
+
+  .review {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }

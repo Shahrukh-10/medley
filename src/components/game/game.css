@@ -3,6 +3,8 @@
   display: flex;
   flex-direction: column;
   padding-bottom: 24px;
+  margin: 1rem 1rem;
+  border-radius: 10px;
 }
 .desc {
   height: 115.67px;
@@ -33,7 +35,7 @@
 }
 .rating {
   display: flex;
-  padding-top: 23px;
+  margin-top: 1.4rem;
   justify-content: start;
   align-items: center;
   font-family: "Gotham";
@@ -69,3 +71,67 @@
   background: #f68e5f;
   border-radius: 17px;
 }
+
+@media screen and (max-width: 1251px) {
+  .game {
+    width: 200px;
+  }
+  .rating {
+    margin-top: 1rem;
+  }
+
+  .rating img {
+    padding-right: 2.67px;
+  }
+  .rate {
+    padding-right: 10.33px;
+  }
+  .orders {
+    text-align: left;
+  }
+
+  .rating button {
+    width: 60.89px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .game {
+    width: 150px;
+  }
+  .descp{
+    font-size: 10px;
+  }
+
+  .rating > img ,.rate ,.orders{
+    display: none;
+  }
+  .rating button{
+    width:100px;
+  }
+}
+
+@media screen and (max-width:470px) {
+
+  #img5,#img6,#img7,#img8{
+    display: none;
+  }
+
+  .game {
+    width: 250px;
+  }
+  
+}
+
+/* @media screen and (max-width:390px) {
+  .heading {
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+ 
+} */
